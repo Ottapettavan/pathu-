@@ -1,0 +1,22 @@
+            - name: Maintain One Comment
+  # You may pin to the exact commit or the version.
+  # uses: actions-cool/maintain-one-comment@b36a5b24a5293cc3bed7a8d4c0a74442cda865aa
+  uses: actions-cool/maintain-one-comment@v3.1.1
+  with:
+    # Secret GitHub API token to use for making API requests.
+    token: # default is ${{ github.token }}
+    # Comment content.
+    body: # optional
+    # Add emojis to comment.
+    emojis: # optional
+    # Manually control the issue or PR number
+    number: # optional
+    # Update comment mode. Default replace. Option append.
+    update-mode: # optional
+    # Comment auth filter.
+    comment-auth: # optional
+    # Comment body filter.
+    body-include: # optional
+    # Will delete all comments
+    delete: # optional
+          
